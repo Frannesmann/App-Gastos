@@ -8,9 +8,6 @@ st.set_page_config(
     layout="wide"
 )
 
-st.title("TEST")
-st.write("Si ves esto, streamlit funciona")
-
 st.title("App de Gastos 💸")
 
 df = pd.read_csv("gastos.csv")
