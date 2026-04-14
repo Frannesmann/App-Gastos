@@ -34,7 +34,7 @@ plt.xticks(rotation=45)
 plt.tight_layout()
 st.pyplot(fig1)
 
-# Gráfico de torta
+# Gráfico circular
 st.subheader("Distribución de Gastos")
 fig2, ax2 = plt.subplots()
 gasto_categoria.plot(kind="pie", autopct="%1.1f%%", ax=ax2)
